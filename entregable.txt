@@ -1,0 +1,17 @@
+Paso 1
+    Descripción de lo que está sucediendo al presionar la card:
+        Cuando se mantiene presionada, se realiza una llamada a las animaciones declaradas dentro del archivo
+        "animations.css", que contiene las propiedades para crear el efecto visualizado en la card.
+
+
+
+Paso 3
+    Explica para qué funciona un keyframe
+        Los keyframes son utilizados para crear animaciones en CSS.
+        En los ejemplos mostrados hace que la imagen crezca en tamaño mientras se mueve hacia arriba.
+
+    
+    Explica 3 propiedades de las animaciones que seleccionaste
+        animation-delay: Con esto podemos definir un tiempo de espera antes de que inicie la animación
+        animation-duration: Se usa para establecer cuánto tiempo tardará en completarse una vuelta de la animación.
+        transition: Podemos usarla para controlar la manera en que las propiedades CSS cambian de un estado a otro durante un periodo de tiempo. 
