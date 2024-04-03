@@ -1,0 +1,9 @@
+PASO 1: Hace una animación donde la card se "acuesta" diagonalmente y después retoma su lugar.
+
+PASO 2: Ya no hace la animación
+
+PASO 3: El keyframe se usa para controlar los pasos de como va a funcionar la animación en el archivo.
+
+transform: permite modificar elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos
+transform-origin: permite modificar el origen de las transformaciones de un elemento
+background-position: se utiliza para definir la posición inicial de una imagen de fondo en un elemento
