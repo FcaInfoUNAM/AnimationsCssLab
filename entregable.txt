@@ -1,0 +1,10 @@
+1. Describe en el archivo entregable.txt que es lo que está sucediendo
+	Al abrir el archivo aparecen 6 cards, al posicionar el cursor sobre ellas y mantener presionado empieza una animación con la imagen.
+
+2. Explica para qué funciona un keyframe en el archivo
+	Los keyframes son momentos específicos en una animación donde se aplican cambios de estilo, se definen utilizando la regla @keyframes seguida de un nombre único para la animación. 
+
+3. Explica 3 propiedades de las animaciones que seleccionaste por ejemplo
+	a. Transform: La propiedad transform en CSS permite modificar el espacio de coordenadas del 	modelo de formato visual. Con ella, los elementos pueden ser trasladados, rotados, escalados 	o sesgados de acuerdo a los valores establecidos
+	b. Delay: Define un retraso antes de que comience la animación, especificado en segundos o 	milisegundos.
+	c. Direction: Controla la dirección de la animación (“normal”, “reverse”, “alternate”, etc.), 	“alternate” hace que la animación se reproduzca en sentido inverso en cada iteración.
