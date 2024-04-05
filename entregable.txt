@@ -1,0 +1,10 @@
+2. Refresca la página y describe lo que pasa en el archivo entregable.txt
+--  En este caso cuando se modifica el código con lo señalado las animaciones proporcionadas para los elementos seleccionados se activan solamente cuando se refresaca la página 
+
+4. Explica para qué funciona un keyframe en el archivo entregable.txt
+--  El key frame es un recopilado de instrucciones que realizan las animaciones cuando se les manada a llamar a través de un elemento de HTML
+    Se utilizan para no estar repitiendo código y solo se tenga que escribir una vez
+
+5. Explica 3 propiedades de las animaciones que seleccionaste por ejemplo
+--  De la animáción que seleccioné solo tiene la función de transform que tiene como propeidades la de rotar, hacer escalados 
+    Pero también har otras funciones de las animaciones como la de hacer sombras
