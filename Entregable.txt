@@ -1,0 +1,58 @@
+Paso 1
+
+1.Visualiza las cards en el navegador
+2.Haz click manteniendolo presionado en una card
+3.Describe en el archivo entregable.txt que es lo que está sucediendo 
+
+    Lo que sucede es una animación de la tarjeta si mantienes el click en la tarjeta
+
+Paso 2
+
+1.Revisa el documento css/animations.ss y ubica el apartado .card{} y modifica el código a como se muestra a continuación
+
+.card{
+    -webkit-animation: slit-in-diagonal-2 450ms linear both;
+    animation: slit-in-diagonal-2 450ms linear both;
+}
+
+2. Refresca la página y describe lo que pasa 
+
+	Lo que pasa es que las "cards" repiten la misma animación una y otra vez mientras tengas el cursor
+
+3. Modifica el código a como se muestra a continuación
+
+.card:hover{
+    -webkit-animation: slit-in-diagonal-2 450ms linear both;
+    animation: slit-in-diagonal-2 450ms linear both;
+}
+
+4. Refresca el sitio web y pasa el mouse por encima de los cards 
+5. Revisa el siguiente enlace https://www.w3schools.com/cssref/css_selectors.php
+6. Elige 3 selectores y pruébalos con el elemento card 
+
+Paso 3
+
+1. Revisa el siguiente enlace https://animista.net/
+2. Busca las animaciones de background y selecciona una 
+3. Copia el código de los keyframes a animation css
+4. Implementa el código a las imágenes del card con un selector
+5. Explica para qué funciona un keyframe en el archivo entregable.txt
+6. Explica 3 propiedades de las animaciones que seleccionaste 
+
+    a. transform permite modificar elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos
+    b. opacity modifica la opacidad del elemento seleccionado
+    c. filter añade algún filtro al elemento seleccionado
+
+Paso 4
+
+1. Implementa una animación de texto en algún elemento del navbar
+2. Implementa animaciones en los botones del card al hacer hover y al hacer click
+
+Paso 5
+
+1. Guarda los cambios 
+2. Agrega los cambios a tu repositorio junto al archivo entregable.txt
+3. Haz una rama llamada entregable 
+4. Cambiate a la rama recién creada 
+5. Realiza un push sobre la rama
+6. Solicita un pullrequest en github
