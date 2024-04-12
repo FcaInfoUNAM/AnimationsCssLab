@@ -1,0 +1,22 @@
+Martínez Mendoza Roberto David
+
+PASO 1:
+    - ¿Qué es lo que está sucediendo?
+        Se activa una animación que hace que la tarjeta se deslice diagonalmente con un efecto de rotación.
+    
+PASO 2:
+    - Modificación .card{} 
+        Al realizar este cambio, las tarjetas hacen al mismo tiempo la animación cuando se ingresa a la página web,
+        ya no se activa la animación al mantener presionado la tarjeta.
+
+PASO 3:
+    - ¿Para qué funciona un keyframe?
+        Es un punto de control que especifica un estado particular. Define los cambios de estilo que ocurren en 
+        diferentes momentos durante la animación.
+
+    - Propiedades de las animaciones:
+        transform: Se utiliza para aplicar transformaciones como rotación, escalado y deformación.
+        transform-origin: Define el punto de referencia desde el cual se realiza una transformación
+        scale: Cambia el tamaño de un elemento. Se especifica un valor numérico que representa la escala.
+
+
