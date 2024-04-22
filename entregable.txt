@@ -1,0 +1,21 @@
+Punto1:
+Hace una animación sobre la card.
+
+Punto2:
+Elimina la animación sobre la card.
+
+Punto2.
+Agrega una animación que al pasar el mouse sobre la card selecciona enlaces, se resetea.
+
+Punto3. keyFrame
+Un KeyFrame sirve para controlar los pasos intermedios en la secuencia
+de la secuencia de la animación CSS, el KeyFrame tiene que ser alcanzado
+por puntos determinados durante la animación. permite tener un control
+sobre las animaciones.
+
+Punto 3. Animaciones
+1. webkit-transform: permite la modificación del espacio de las coordenadas del formato visual,
+los elementos pueden ser movidos de acuerdo a los valores que se establecen previamente. 
+2. webkit-animation-timing-function: Especifica la velocidad de la animación.
+3. webkit-transform-origin: permite cambiar el orien de las trasnformaciones de cualquier elemento, 
+cabia el punto de origen de la trasnformación. 

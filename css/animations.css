@@ -1,50 +1,94 @@
-
 @-webkit-keyframes slit-in-diagonal-2 {
-    0% {
-    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-    }
-    54% {
-    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    opacity: 1;
-    }
-    100% {
-    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    }
+0% {
+-webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+opacity: 0;
+}
+54% {
+-webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+-webkit-animation-timing-function: ease-in-out;
+animation-timing-function: ease-in-out;
+opacity: 1;
+}
+100% {
+-webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
 }
 @keyframes slit-in-diagonal-2 {
-    0% {
-    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-    }
-    54% {
-    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    opacity: 1;
-    }
-    100% {
-    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    }
+0% {
+-webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+opacity: 0;
 }
+54% {
+-webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+-webkit-animation-timing-function: ease-in-out;
+animation-timing-function: ease-in-out;
+opacity: 1;
+}
+100% {
+-webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+}
+
+@-webkit-keyframes kenburns-top-right {
+0% {
+-webkit-transform: scale(1) translate(0, 0);
+transform: scale(1) translate(0, 0);
+-webkit-transform-origin: 84% 16%;
+transform-origin: 84% 16%;
+}
+100% {
+-webkit-transform: scale(1.25) translate(20px, -15px);
+transform: scale(1.25) translate(20px, -15px);
+-webkit-transform-origin: right top;
+transform-origin: right top;
+}
+}
+@keyframes kenburns-top-right {
+0% {
+-webkit-transform: scale(1) translate(0, 0);
+transform: scale(1) translate(0, 0);
+-webkit-transform-origin: 84% 16%;
+transform-origin: 84% 16%;
+}
+100% {
+-webkit-transform: scale(1.25) translate(20px, -15px);
+transform: scale(1.25) translate(20px, -15px);
+-webkit-transform-origin: right top;
+transform-origin: right top;
+}
+}
+
+
 /* CARD CALL */
-.card:active{
-    -webkit-animation: slit-in-diagonal-2 450ms linear both;
-    animation: slit-in-diagonal-2 450ms linear both;
+a{
+-webkit-animation: slit-in-diagonal-2 450ms linear both;
+animation: slit-in-diagonal-2 450ms linear both;
+}
+
+.card :link {
+-webkit-animation: kenburns-top-right 5s ease-out both;
+animation: kenburns-top-right 5s ease-out both;
+}
+
+.card :active {
+background-color: rgba(255, 20, 145, 0.274);
+}
+
+.navbar a:hover{
+
+transform: scale(5.8);
 }
