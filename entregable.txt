@@ -1,0 +1,11 @@
+Paso 1
+Las imagenes de las cards hacen una animacion como si rotaran.
+Paso 2
+Las imagenes vuelven a hacer la animacion, pero ahora la hacen cada vez que se entra
+al sitio.
+Paso 3
+Sirve para Marcar las propiedades, en los que se va realizar la animacion, de que forma y en que tiempos de ejecucion
+
+-transfrom:permite modificar elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos
+-scale:define una transformación que modifica el tamaño de un elemento en el plano 2D. 
+-translate:recoloca un elemento en el eje horizontal y/o vertical.
