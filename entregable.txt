@@ -1,0 +1,12 @@
+PASO 1: 
+Al momento de seleccionar una de las tarjetas donde realiza una animacionben diagonal 
+PASO 2:
+Ya no se realiza la aminacion en diagonal al seleccionarlo.
+Al seleccionarlo es como si parpadeara por el tiempo de la animacion y que se queda seleccionado.
+PASO 3: 
+Explica para qué funciona un keyframe nos permite realizar cambios en las propiedades de algun elemento estos pueden 
+ser posición, tamaño, color, entre otros.
+ La animation-fill-mode propiedad especifica un estilo para el elemento cuando la animación no se está reproduciendo 
+ La transformpropiedad aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.
+ La animation-directionpropiedad define si una animación debe reproducirse hacia adelante, hacia atrás o en ciclos alternos
+ 
