@@ -1,0 +1,29 @@
+PASO 1
+1.1: Listo
+1.2:Listo 
+1.3:Tiene una animación sobre su mismo espacio de cuadro haciendo el efecto de desenvolver la hoja.
+
+PASO 2
+2.1: Listo
+2.2: Al quitar active, nos da las animaciones predeterminadas sin darle click al cuadro.
+2.3: Listo
+2.4: Al agregar Hover, nos da un efecto como intermitente como tipo fallo en el cuadro
+2.5: Listo
+2.6: :Fullscreen. da modo pantalla completa
+	:focus. selecciona el elemento enfocado
+	::marker. se cambia color y tamaños
+
+PASO 3:
+3.1: Listo
+3.2: Listo
+3.3: Listo
+3.4: Los keyframe sirven para simplificar el llamado de una transición.
+3.5: Transform: modifica la posición y tamaño del cuadro.
+    ease: aceleración y desacaleración de forma gradual para que se vea el efecto
+    Direction: la animación se hace a una sola dirección.
+
+PASO 4:
+4.1: Listo
+4.2: Listo
+
+PASO 5: Listo
