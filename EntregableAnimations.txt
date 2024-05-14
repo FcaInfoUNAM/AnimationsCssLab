@@ -1,0 +1,15 @@
+AnimationCCSLAB 
+Refresca la página y describe lo que pasa en el archivo
+Las cartas a la refrecar el index, obtienen una animación de movimiento 
+
+Explica para qué funciona un keyframe
+Los keyframes permiten especificar los estilos que un elemento debe tener en diferentes momentos durante el transcurso de una animación. 
+Define cómo debe cambiar el estilo del elemento en puntos específicos a lo largo de la duración de la animación.
+
+Explica 3 propiedades de las animaciones (translate,word-break,word-wrap)
+La propiedad translate es parte de la función transform, utilizada para mover elementos en el espacio bidimensional (2D) o tridimensional (3D).
+Permite desplazar un elemento a lo largo de los ejes X, Y y Z.
+La propiedad word-break controla cómo las líneas deben romperse dentro de una palabra cuando llegan al final de una línea.
+La propiedad word-wrap (ahora conocida como overflow-wrap) permite que las palabras se rompan y pasen a la siguiente línea cuando sea necesario para evitar desbordamientos.
+
+

@@ -1,0 +1,107 @@
+
+/* Animación de texto en el navbar */
+@keyframes text-color-change {
+        0% {
+            color: #fff;
+        }
+        50% {
+            color: #ff6347;
+        }
+        100% {
+            color: #fff;
+        }
+    }
+    
+    .navbar-brand {
+        animation: text-color-change 3s infinite;
+    }
+    
+    /* Animación Ken Burns para la card */
+    @-webkit-keyframes kenburns-left {
+        0% {
+            -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+                    transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+            opacity: 0;
+        }
+        54% {
+            -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+                    transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+            -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+                    transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+        }
+    }
+    
+    @keyframes kenburns-left {
+        0% {
+            -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+                    transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+            opacity: 0;
+        }
+        54% {
+            -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+                    transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
+            -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+                    transform: translateZ(0) rotate3d(-1, 1, 0, 0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+        }
+    }
+    
+    /* Aplicar animación Ken Burns en hover sobre la card */
+    .card:hover {
+        word-wrap: break-word;
+        -webkit-animation: kenburns-left 5s ease-out both;
+        animation: kenburns-left 5s ease-out both;
+    }
+    
+    /* Animaciones de los botones */
+    @keyframes button-hover {
+        0% {
+            background-color: #000;
+            transform: scale(1);
+        }
+        100% {
+            background-color: #ff6347;
+            transform: scale(1.1);
+        }
+    }
+    
+    @keyframes button-click {
+        0% {
+            background-color: #000;
+            transform: scale(1);
+        }
+        100% {
+            background-color: #32cd32;
+            transform: scale(0.9);
+        }
+    }
+    
+    .btn {
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .btn:hover {
+        animation: button-hover 0.3s forwards;
+    }
+    
+    .btn:active {
+        animation: button-click 0.1s forwards;
+    }
+    
