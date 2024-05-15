@@ -1,0 +1,15 @@
+Paso 1
+    ¿Qué es lo que está sucediendo?
+        La animación se hace presente y hace que la tarjeta realice un movimiento en diagonal.
+    
+Paso 2
+    Modificación .card{} 
+        Con esta modificación se realiza la animación al ingresar a la página.
+
+Paso 3
+    ¿Para qué funciona un keyframe?
+        Es utilizado para definir los cambios de estilo que suceden en durante la animación.
+    Propiedades de las animaciones:
+        transform: Podemos aplicar cambios a los elementos como la rotación.
+        transform-origin: Define el punto de partida de alguna transformación.
+        animation-timing-function: Controla cómo cambia la velocidad de la animación. Define la curva de velocidad (cómo se aceleran y desaceleran).
