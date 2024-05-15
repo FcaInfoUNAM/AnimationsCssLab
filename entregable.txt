@@ -1,0 +1,16 @@
+Paso 1
+Describe ¿que es lo que está sucediendo?
+Al hacer click en la tarjeta esta realiza una animación
+
+Paso 2
+Refresca la página y describe lo que pasa
+Al pasar el apuntador no hace nada, si doy click regreso al inicio
+
+Paso 3
+¿Para qué funciona un keyframe?
+Para tener el control de la secuencia de las animaciones de forma más específica
+
+Explica 3 propiedades de las animaciones que seleccionaste
+transform-origin: Las transformaciones 2D pueden cambiar el eje x e y de un elemento. En caso de haber elementos 3D, el eje z también puede cambiar
+transform: aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos
+@keyframes: es la regla especifica el código de animación. La animación se crea cambiando gradualmente de un conjunto de estilos CSS a otro

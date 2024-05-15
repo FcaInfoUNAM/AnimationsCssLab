@@ -1,50 +1,49 @@
-
-@-webkit-keyframes slit-in-diagonal-2 {
-    0% {
-    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-    }
-    54% {
-    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    opacity: 1;
-    }
-    100% {
-    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    }
-}
-@keyframes slit-in-diagonal-2 {
-    0% {
-    -webkit-transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-            transform: translateZ(-800px) rotate3d(-1, 1, 0, -90deg);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-    }
-    54% {
-    -webkit-transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-            transform: translateZ(-160px) rotate3d(-1, 1, 0, -87deg);
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    opacity: 1;
-    }
-    100% {
-    -webkit-transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-            transform: translateZ(0) rotate3d(-1, 1, 0, 0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    }
-}
+ @-webkit-keyframes kenburns-bottom {
+        0% {
+          -webkit-transform: scale(1) translateY(0);
+                  transform: scale(1) translateY(0);
+          -webkit-transform-origin: 50% 84%;
+                  transform-origin: 50% 84%;
+        }
+        100% {
+          -webkit-transform: scale(1.25) translateY(15px);
+                  transform: scale(1.25) translateY(15px);
+          -webkit-transform-origin: bottom;
+                  transform-origin: bottom;
+        }
+      }
+      @keyframes kenburns-bottom {
+        0% {
+          -webkit-transform: scale(1) translateY(0);
+                  transform: scale(1) translateY(0);
+          -webkit-transform-origin: 50% 84%;
+                  transform-origin: 50% 84%;
+        }
+        100% {
+          -webkit-transform: scale(1.25) translateY(15px);
+                  transform: scale(1.25) translateY(15px);
+          -webkit-transform-origin: bottom;
+                  transform-origin: bottom;
+        }
+      }
+      
 /* CARD CALL */
-.card:active{
-    -webkit-animation: slit-in-diagonal-2 450ms linear both;
-    animation: slit-in-diagonal-2 450ms linear both;
+.card-img-top:hover {
+    -webkit-animation: kenburns-bottom 10s ease-out both;
+    animation: kenburns-bottom 10s ease-out both;
+}
+
+.card:active {
+  background-color: yellow;
+}
+
+.card::after {
+        content: " - Haz click";
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+}
+
+.card::before {
+        content: "Espera";
 }
