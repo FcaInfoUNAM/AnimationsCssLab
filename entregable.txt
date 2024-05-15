@@ -1,0 +1,17 @@
+Describe en el archivo entregable.txt que es lo que está sucediendo 
+R.- Al mantener presionado el click se reproduce una animación en las tarjetas.
+
+Refresca la página y describe lo que pasa en el archivo entregable.txt
+R.- Ahora las animaciones suceden al cargar la página pero ya no cuando mantienes presionado el click.
+
+Explica para qué funciona un keyframe en el archivo entregable.txt
+R.- Un keyframe funciona como un punto de referencia en una animación.
+
+Explica 3 propiedades de las animaciones que seleccionaste por ejemplo
+```
+transform permite modificar elementos pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos
+```
+en el archivo entregable.txt
+R.- La propiedad transform en CSS sirve para manipular la posición, el tamaño y la rotación de un elemento sin afectar su posición en el documento o el flujo del contenido a su alrededor.
+La propiedad opacity en CSS controla la transparencia de un elemento. Se define un valor entre 0 y 1
+La propiedad text-shadow agrega una sombra decorativa al texto de un elemento.
