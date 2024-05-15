@@ -1,0 +1,25 @@
+PASO 1
+
+Pregunta 1: que es lo que está sucediendo
+Se presenta una breve animación al hacer clic en las cartas.
+______________________________________________________________________
+PASO 2
+Pregunta 1: describe lo que pasa 
+La animación desaparece y las cartas se vuelven estáticas.
+______________________________________________________________________
+
+PASO 3
+Pregunta 1:
+La animación regresa, pero ahora no es necesario hacer clic en las cartas; basta con pasar el mouse sobre ellas para que aparezca la animación.
+
+Pregunta 2:  funciona un keyframe
+Un keyframe, también conocido como fotograma clave, es un punto de referencia en una animación que define el estado de un objeto en un momento específico. Ayuda a controlar cómo cambia un objeto a lo largo del tiempo y sirve para marcar eventos importantes en la animación. Los keyframes son útiles para optimizar el tamaño del archivo de animación.
+
+Pregunta 3: Explica 3 propiedades de las animaciones
+Propiedades de la animación:
+
+8s (duración): Establece la duración de la animación en 8 segundos.
+linear (función de tiempo): Controla el ritmo de la animación. "linear" crea una velocidad constante durante toda la animación.
+infinite (conteo de iteraciones): Hace que la animación se repita infinitamente.
+alternate (dirección): Invierte la dirección de la animación en cada iteración (los colores cambiarán de ida y vuelta).
+both (modo de relleno): Especifica que el estado final de la animación debe aplicarse antes de que comience la siguiente animación, lo cual es importante para cambios de color continuos.
