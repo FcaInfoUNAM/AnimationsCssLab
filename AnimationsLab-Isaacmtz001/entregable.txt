@@ -1,0 +1,12 @@
+antes de quitar el active del card cuando lo pusas o das clic la card hace una animacion, despues de quitar active en paso dos cuando refrescas la pantalla
+hacen la animaciion y ya despues no.
+con el :hover parpadean las imagenes y luego hacen la animacion de girarse
+los 3 selectores y pruebalos : ninguno me funcionó
+el keyframe
+es un marcador que se coloca en la línea de tiempo de una animación. Estos marcadores definen los puntos de inicio y fin de un cambio en una propiedad específica, como la posición, la rotación, la opacidad o el tamaño de un objeto.
+
+Explica 3 propiedades de las animaciones que seleccionaste
+1- shadow-pop le hace sombra, 2- swing hace que se abra la imagen desde abajo, 3- flip hace una rotacion 
+
+En este ejemplo, creamos un fade-nav-textfotograma clave y lo aplicamos a cada .nav-itemelemento. La animación hará que el texto aparezca (al 50%) y desaparezca (al 0% y al 100%) con una duración de 2 segundos.
+

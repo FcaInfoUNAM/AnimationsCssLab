@@ -1,0 +1,16 @@
+Paso 1
+3. La animación se da cuando le das click a cualquiera de las cards
+
+Paso 2
+2. Al modificar el código, la animación del movimiento se da al cargar la página
+
+4. Al pasar el mouse por las cards, hace una animación una y otra vez, es decir se resetea.
+
+Paso 3
+4.Los keyframes se utilizan en combinación con la regla @keyframes para definir cómo cambian las 
+propiedades de un elemento a lo largo del tiempo durante una animación.
+
+5.
+Scale: La propiedad scale permite cambiar el tamaño de un elemento en dos dimensiones, tanto horizontal como verticalmente.
+Flip: La propiedad scaleX() y scaleY() se pueden usar para voltear un elemento horizontal o verticalmente, respectivamente.
+Swing: Permite rotar un elemento en un ángulo determinado.
