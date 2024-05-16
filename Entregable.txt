@@ -1,0 +1,14 @@
+Paso 1.3
+Al mantener el cursor presionado sobre las tarjetas (cards), se activa una animación en ellas.
+
+Paso 2.2
+Al eliminar el selector "active" de la llamada a la clase "card", ya no se ejecuta ninguna animación al mantener presionado el cursor sobre estas; únicamente se realiza la animación al recargar la página.
+
+Paso 3.4
+Un keyframe se encarga de definir puntos específicos dentro de las animaciones. En este caso, se enfoca en determinar cómo se llevará a cabo la animación de la "card".
+
+Paso 3.5
+El atributo transform permite modificar elementos de manera que pueden ser trasladados, rotados, escalados o sesgados según los valores establecidos.
+
+scaleX: En keyframes, se utiliza para animar la escala horizontal de un elemento. En otras palabras, permite controlar cuánto se ensancha o comprime un elemento a lo largo del eje X.
+translateZ: Se utiliza para animar la posición de un elemento en el eje Z, que es el eje perpendicular a la pantalla. En otras palabras, permite controlar cuánto se acerca o se aleja un elemento del espectador durante una animación.
