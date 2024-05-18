@@ -1,0 +1,24 @@
+
+Paso 1
+Al hacer clic en las cartas, se activa una pequeña animación.
+
+Paso 2
+P1:
+La animación desaparece y las cartas se vuelven estáticas.
+
+Paso 3
+1. 
+La animación regresa, pero ahora se activa al pasar el mouse sobre las cartas en lugar de hacer clic.
+
+2.
+Un keyframe, o fotograma clave, es un punto de referencia en una animación que define el estado de un objeto en un momento específico.
+Permite controlar cómo cambia un objeto a lo largo del tiempo y sirve para marcar eventos importantes en la animación.
+Los keyframes también ayudan a optimizar el tamaño del archivo de animación.
+
+3.
+
+both: especifica que el estado final de la animación se debe aplicar antes de que comience
+la siguiente animación, lo cual es importante para los cambios de color continuos.
+infinite: hace que la animación se repita indefinidamente.
+alternate: invierte la dirección de la animación en cada iteración,
+haciendo que los colores cambien de ida y vuelta.
