@@ -1,0 +1,35 @@
+Pregunta 1: ¿Qué está sucediendo visualmente cuando mantienes el clic sobre una card? ¿Qué propiedad o selector CSS crees que lo provoca?
+
+Al mantener el clic presionado sobre una card se activa una interaccion (pseudo-clase :active)  que provoca un cambio visual de escala/desplazamiento
+en la card. Esto es generado por propiedades de transformacion (transform) combinadas con transiciones CSS.
+
+Pregunta 2: ¿Qué cambió en el comportamiento de las cards al recargar la página?
+
+Al recargar la pagina, las tarjetas ya no aparecen estaticas, sino que se ejecutan 
+de manera automatica al cargar el DOM, aplicando la animacion 'slit-in-diagonal-2'
+en diagonal durante 450 milisegudnos.
+
+Pregunta 3: ¿Qué 3 selectores elegiste? Describe brevemente qué hace cada uno y cómo se comportó la animación al usarlo.
+
+I. :hover : Aplica la animacion unicamente cuando el cursor del mouse se posiciona directamente encima de la tarjeta.
+II. :nth-child(odd) : Aplica la animacion solo a las tarjetas que ocupan una posicion impar, permitiendo animar 
+selectivamente elementos especificos de la cuadricula. 
+III. :active : Activa la animacion exclusivamente en el preciso instante en que el usuario hace clic y mantiene 
+presionado el boton izquierdo sobre la tarjeta. 
+
+Pregunta 4: ¿Para qué sirve un @keyframes en CSS? 
+
+Sirve para definir de manera detallada los pasos intermedios de una animacion, indicando  de manera exacta como deben cambiar
+las propiedades del CSS desde el inicio (que es el 0%) hasta el final (100%) del proceso. 
+
+Pregunta 5: Elige 3 propiedades de las animaciones que usaste (por ejemplo: animation-duration, animation-timing-function, transform) 
+y explica qué hace cada una.
+
+1. transform - Permite modificar elementos visualmente: pueden ser trasladados, rotados, escalados o sesgados de acuerdo con 
+los valores establecidos.
+
+2. animation-duration - Define el tiempo exacto que tarda en completarse un ciclo completo de la animacion (por ejemplo, 5s o 450ms).
+
+3. animation-timing-function - Establece la curva de aceleracion o velocidad de la animacion a lo largo del tiempo (como linear, ease-in
+o ease-out ), controlando que tan rapido o lento se mueve en cada tramo. 
+  
