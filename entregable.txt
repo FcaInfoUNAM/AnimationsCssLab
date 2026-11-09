@@ -1,0 +1,33 @@
+¿Qué está sucediendo visualmente cuando mantienes el clic sobre una card? ¿Qué propiedad o selector CSS crees que lo provoca?
+
+Cuando se mantiene el clic sobre una card, esta rota sobre su propio eje en diagonal . Por lo que he visto en este repositorio, la porpiedad que lo provoca es la de webkit.
+
+
+Pregunta 2: ¿Qué cambió en el comportamiento de las cards al recargar la página?
+
+Que todas rotan en diagonal al recargar la página, a diferiencia de antes que al apretar tú mismo el boton estas realizaban su animación (el botón ya no ejecuta la animación en cualquier card al aplicar el cambio).
+
+Pregunta 3: ¿Qué 3 selectores elegiste? Describe brevemente qué hace cada uno y cómo se comportó la animación al usarlo.
+
+:nth-of-type(2): Selecciona el segundo elemento de su mismo tipo.
+
+div.card: Selecciona los elementos <div> que tienen la clase card.
+
+
+[class~="card"]: Selecciona cualquier elemento cuya lista de clases incluya "card".
+
+
+Pregunta 4: ¿Para qué sirve un @keyframes en CSS? Explícalo con tus propias palabras.
+
+@keyframes permite crear animaciones personalizadas con diferentes características(color,tamaño, etc)
+, estas animaciones cambian gradualmente.
+
+Pregunta 5: Elige 3 propiedades de las animaciones que usaste (por ejemplo: animation-duration, animation-timing-function, transform) y explica qué hace cada una. 
+
+animation-timing-function -Define la velocidad con la que se desarolla la animación.
+
+animation-duration - Indica cuánto tiempo tarda la animación en completarse.
+
+animation-fill-mode Determina cómo se verá el elemento antes y después de la animación.
+
+
