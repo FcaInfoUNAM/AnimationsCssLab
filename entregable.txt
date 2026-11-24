@@ -1,0 +1,18 @@
+Pregunta 1:
+Cuando mantengo presionado el clic sobre una tarjeta (.card), se ejecuta la animación slit-in-diagonal-2 (rota en 3D y se acerca en el eje Z). Esto lo provoca la pseudoclase :active combinada con la propiedad animation en css/animations.css.
+
+Pregunta 2:
+Al aplicar la animación directamente al selector .card, las tarjetas se animan automáticamente al cargar o recargar la página, en lugar de esperar a que interactúes con ellas.
+
+Pregunta 3:
+1) :nth-child(odd): Selecciona los hijos en posición impar (1ª, 3ª, 5ª) dentro del contenedor .row para darles un borde distintivo.
+2) :focus-within: Se activa cuando la tarjeta o algún elemento dentro de ella (como su enlace/botón) recibe foco, resaltándola con un contorno/sombra.
+3) :not(:hover): Selecciona las tarjetas que no tienen el cursor encima en ese momento, aplicando una ligera opacidad (0.96).
+
+Pregunta 4:
+Un @keyframes sirve para definir los estados intermedios de una animación a lo largo del tiempo. Mediante porcentajes (como 0%, 54% y 100%) se indica cómo deben cambiar propiedades como transform u opacity durante la duración de la animación.
+
+Pregunta 5:
+animation-duration — Define cuánto tiempo tarda en completarse una animación (por ejemplo, 450ms o 5s).
+animation-timing-function — Determina la curva de velocidad de la animación (como linear, ease-in, ease-out o ease-in-out).
+transform — Permite modificar visualmente un elemento (escalarlo con scale, moverlo en profundidad con translateZ o rotarlo con rotate3d) sin alterar el flujo normal del layout.
