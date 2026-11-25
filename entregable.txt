@@ -1,0 +1,21 @@
+=== PASO 1 ===
+Pregunta 1:
+Cuando mantengo presionado el clic sobre una tarjeta (.card), se activa su estado presionado mediante la pseudoclase :active, aplicando la animación slit-in-diagonal-2 (con rotación en 3D y desplazamiento en Z) mientras se mantiene pulsado el botón del ratón.
+
+=== PASO 2 ===
+Pregunta 2:
+Al colocar la animación directamente en .card en lugar de :active, la animación slit-in-diagonal-2 se ejecuta automáticamente al cargar o recargar la página (y con animation-fill-mode: both mantiene su estado final). Al cambiarla a .card:hover, deja de ejecutarse al cargar y solo se activa al pasar el cursor sobre la tarjeta.
+
+Pregunta 3:
+1. .card:focus-within: Selecciona una tarjeta cuando ella o cualquiera de sus elementos internos (como su enlace o botón) recibe el foco; la animación se activa al enfocar dentro de la tarjeta.
+2. .card:nth-child(odd): Selecciona los elementos en posición impar (1º, 3º, 5º, etc.) dentro de su contenedor; aplicada a las tarjetas en posición impar, hace que solo ellas ejecuten la animación.
+3. .card:first-child: Selecciona únicamente el primer hijo dentro de su contenedor; al aplicarlo, solo la primera tarjeta muestra la animación.
+
+=== PASO 3 ===
+Pregunta 4:
+Un @keyframes en CSS sirve para definir los distintos momentos o estados intermedios de una animación a lo largo de su duración. Mediante porcentajes (como 0%, 50% o 100%) se indica qué valores de propiedades visuales (como transformación, opacidad o posición) debe tener el elemento en cada etapa.
+
+Pregunta 5:
+- animation-duration: Define cuánto tiempo tarda en completarse un ciclo de la animación (por ejemplo, 450ms o 5s).
+- animation-timing-function: Determina la curva de aceleración o velocidad de la animación a lo largo del tiempo (como linear, ease-out o ease-in-out).
+- transform: Permite modificar visualmente un elemento aplicando traslaciones (translateZ, translateY), escalas (scale) o rotaciones (rotate3d) sin alterar el flujo normal del documento.
