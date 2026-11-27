@@ -1,0 +1,16 @@
+Pregunta 1: ¿Qué está sucediendo visualmente cuando mantienes el clic sobre una card? ¿Qué propiedad o selector CSS crees que lo provoca?
+La card vuelve a aparecer girando en diagonal, como si viniera desde el fondo. Lo provoca el selector .card:active junto con la propiedad animation, que usa los keyframes slit-in-diagonal-2.
+
+Pregunta 2: ¿Qué cambió en el comportamiento de las cards al recargar la página?
+Ahora todas las cards hacen la animación solas en cuanto carga la página, sin necesidad de hacer clic.
+
+Pregunta 3: ¿Qué 3 selectores elegiste? Describe brevemente qué hace cada uno y cómo se comportó la animación al usarlo.
+Elegí .card:active, que aplica el estilo mientras se mantiene presionado el clic, y la animación solo se vio en ese momento. Elegí .card:focus-within, que se activa cuando algo dentro de la card tiene el foco, y la animación se vio al enfocar su botón. Elegí div:nth-child(odd) > .card, que toma las cards de las columnas impares, y solo esas se animaron al cargar la página.
+
+Pregunta 4: ¿Para qué sirve un @keyframes en CSS? Explícalo con tus propias palabras.
+Sirve para definir los pasos de una animación, indicando cómo se ve el elemento al inicio, en medio y al final. El navegador hace el cambio suave entre un paso y otro.
+
+Pregunta 5: Elige 3 propiedades de las animaciones que usaste y explica qué hace cada una.
+transform: permite mover, escalar o girar un elemento.
+animation-timing-function: define la velocidad de la animación en cada momento, por ejemplo empezar lento y terminar rápido.
+opacity: cambia la transparencia del elemento, donde 0 es invisible y 1 se ve completo.
